@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: block;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.selector {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
