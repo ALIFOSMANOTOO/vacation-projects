@@ -1,0 +1,310 @@
+    /* top header */
+    
+    .topheader {
+        height: 45px;
+        display: flex;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 100;
+        justify-content: space-between;
+        border-bottom: 1px solid;
+        border-bottom-color: rgb(211, 211, 211);
+        background-color: white;
+        margin-bottom: 0;
+    }
+    /* left section */
+    
+    .lefttopheader {
+        width: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .menubox {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 25px;
+    }
+    
+    .boxxx {
+        width: 32px;
+        height: 30px;
+        margin-left: 35px;
+        border-radius: 20px;
+        border: none;
+        cursor: pointer;
+        padding-right: -6px;
+    }
+    
+    .menu {
+        height: 30px;
+        width: 30px;
+        border-radius: 15px;
+        margin-left: -8px;
+        margin-top: -1.2px;
+    }
+    
+    .boxxx:active .menu {
+        opacity: .4;
+    }
+    
+    .boxxx:active {
+        background-color: rgba(131, 131, 131, 0.937);
+        border: 1px solid;
+        border-color: rgb(229, 229, 229);
+    }
+    
+    .youtubelogobox {
+        flex: 1;
+        margin-left: 35px;
+    }
+    
+    .youtubelogo {
+        height: 25px;
+    }
+    /* middle header section */
+    
+    .middletopheader {
+        flex: 1;
+        margin-left: 45px;
+        margin-right: 60px;
+        display: flex;
+        align-items: center;
+        max-width: 500px;
+        justify-content: center;
+    }
+    
+    .searchbox {
+        flex: 1;
+        height: 25px;
+        border: 1px solid;
+        border-radius: 3px;
+        border-color: rgb(221, 221, 221);
+        margin-right: -10px;
+        font-size: 14px;
+        color: rgb(101, 101, 101);
+    }
+    
+    .searchbox:active {
+        background-color: rgb(237, 237, 226);
+    }
+    
+    .searchbuttonbox {
+        height: 29px;
+        border: 1px solid;
+        width: 40px;
+        border: 1px solid;
+        border-radius: 3px;
+        border-color: rgb(221, 221, 221);
+        background-color: rgb(255, 255, 255);
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        cursor: pointer;
+    }
+    
+    .searchbuttonbox:active {
+        box-shadow: inset 0.1px 0.2px 15px rgb(225, 225, 225);
+    }
+    
+    .searchbuttonbox:active .searchbutton {
+        opacity: .3;
+    }
+    
+    .searchbutton {
+        height: 21px;
+        object-position: center;
+        width: 23px;
+        border-radius: 11px;
+    }
+    
+    .voicesearchbutton {
+        height: 30px;
+        width: 33px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    
+    .voicesearchbuttonbox {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30px;
+        height: 30px;
+        border: 1px solid;
+        border-radius: 30px;
+        border-color: rgb(221, 221, 221);
+        background-color: rgb(255, 255, 255);
+        margin-left: 7px;
+    }
+    
+    .voicesearchbuttonbox:active .voicesearchbutton {
+        opacity: .5;
+    }
+    
+    .voicesearchbuttonbox:active {
+        background-color: rgba(118, 118, 118, 0.937);
+        border: 1px solid;
+        border-color: rgb(229, 229, 229);
+    }
+    /* right section */
+    
+    .righttopheader {
+        width: 210px;
+        display: flex;
+        align-items: center;
+        flex-shrink: 0;
+    }
+    
+    button {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 30px;
+        border: none;
+        background-color: rgb(255, 255, 255);
+        margin-left: 7px;
+        cursor: pointer;
+    }
+    
+    button:active {
+        background-color: rgb(154, 154, 158);
+    }
+    
+    button:active .createvid {
+        opacity: .2;
+    }
+    
+    .createvid {
+        height: 100%;
+        width: 100%;
+        border-radius: 51px;
+    }
+    
+    .notificationbell {
+        height: 35px;
+        width: 100%;
+    }
+    
+    .channelprofilepic {
+        margin-top: 5px;
+        height: 40px;
+        width: 40px;
+        border-radius: 20px;
+        margin-left: 15px;
+        cursor: pointer;
+    }
+    
+    .divs1 {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .toolkit1 {
+        position: absolute;
+        bottom: -20px;
+        left: 0px;
+        right: 0px;
+        height: 15px;
+        width: fit-content;
+        background-color: rgb(66, 66, 66);
+        color: white;
+        margin: 3px;
+        padding: 4px;
+        padding-top: 2px;
+    }
+    
+    .divs1 .toolkit1 {
+        opacity: 0;
+    }
+    
+    .divs1:hover .toolkit1 {
+        opacity: 1;
+    }
+    
+    .divs2 {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .toolkit2 {
+        position: absolute;
+        bottom: -20px;
+        left: 0px;
+        right: 0px;
+        height: 15px;
+        width: fit-content;
+        background-color: rgb(66, 66, 66);
+        color: white;
+        margin: 3px;
+        padding: 4px;
+        padding-top: 2px;
+    }
+    
+    .divs2 .toolkit2 {
+        opacity: 0;
+    }
+    
+    .divs2:hover .toolkit2 {
+        opacity: 1;
+    }
+    
+    .divs3 {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .toolkit3 {
+        position: absolute;
+        bottom: -30px;
+        left: 0px;
+        right: 0px;
+        height: 15px;
+        width: fit-content;
+        background-color: rgb(66, 66, 66);
+        color: white;
+        margin: 3px;
+        padding: 4px;
+        padding-top: 2px;
+    }
+    
+    .divs3 .toolkit3 {
+        opacity: 0;
+    }
+    
+    .divs3:hover .toolkit3 {
+        opacity: 1;
+    }
+    
+    .divs4 {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .toolkit4 {
+        position: absolute;
+        bottom: -30px;
+        left: 0px;
+        right: 0px;
+        height: 15px;
+        width: fit-content;
+        background-color: rgb(66, 66, 66);
+        color: white;
+        margin: 3px;
+        padding: 4px;
+        padding-top: 2px;
+    }
+    
+    .divs4 .toolkit4 {
+        opacity: 0;
+    }
+    
+    .divs4:hover .toolkit4 {
+        opacity: 1;
+    }
