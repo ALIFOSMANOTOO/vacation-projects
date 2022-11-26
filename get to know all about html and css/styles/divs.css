@@ -1,0 +1,127 @@
+body {
+    font-family: arial;
+}
+
+.redbox {
+    background-color: red;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+}
+
+.greencircle {
+    background-color: green;
+    border-radius: 150px;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    margin-left: 15px;
+    margin-bottom: 0px;
+}
+
+.agreement {
+    width: 350px;
+    height: 100px;
+    background-color: rgb(232, 232, 232);
+    margin-top: 20px;
+    padding-top: 2px;
+    padding-left: 15px;
+    color: rgba(36, 36, 36, 0.975);
+}
+
+.qwert {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+button {
+    font-weight: bold;
+    margin-top: 0px;
+    background-color: rgb(210, 210, 210);
+    border-width: 1px;
+    border-color: rgb(181, 179, 179);
+    color: rgba(36, 36, 36, 0.975);
+}
+
+.tubemusic {
+    height: 120px;
+    width: 380px;
+    background-color: rgba(16, 15, 15, 0.975);
+    color: aliceblue;
+    margin-top: 15px;
+    padding-top: 1px;
+    padding-left: 15px;
+}
+
+.head {
+    font-size: 23px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.last {
+    color: rgb(188, 193, 193);
+}
+
+.design {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    margin-left: 90px;
+    margin-bottom: 7px;
+    letter-spacing: -6px;
+}
+
+.g {
+    font-size: 40px;
+    color: rgb(54, 54, 207);
+}
+
+.o1 {
+    color: rgb(96, 12, 12);
+}
+
+.o2 {
+    color: rgb(249, 213, 7);
+}
+
+.gsmall {
+    color: rgb(63, 63, 231);
+}
+
+.l {
+    color: rgb(29, 132, 52);
+}
+
+.e {
+    color: rgb(91, 20, 0);
+}
+
+.googlesearch {
+    display: block;
+    margin-top: 0px;
+    padding-inline-start: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 18px;
+    border-width: 1px;
+    border-color: rgb(185, 187, 189);
+    width: 300px;
+    font-size: 10px;
+    font-weight: bold;
+    color: rgb(195, 195, 195);
+}
+
+.jkl {
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.span {
+    margin-left: 35px;
+}
+
+.lastdiv {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}

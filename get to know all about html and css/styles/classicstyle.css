@@ -1,0 +1,110 @@
+body {
+    height: 1500px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(244, 160, 82);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 50px;
+}
+
+.leftsec {
+    display: flex;
+    width: 130px;
+    align-items: center;
+    margin-left: 80px;
+}
+
+.guitar {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.rightsec {
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+    align-items: center;
+    margin-right: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+button {
+    flex: 1;
+    border-radius: 2px;
+    height: 25px;
+    border: none;
+    background-color: rgb(102, 230, 104);
+    color: rgb(0, 0, 0);
+}
+
+.name {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.leftheader {
+    position: fixed;
+    top: 80px;
+    bottom: 0;
+    background-color: rgb(31, 31, 32);
+    left: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+    border-radius: 20px;
+    margin: 10px;
+    margin-right: 20px;
+}
+
+.rightheader {
+    position: fixed;
+    width: 200px;
+    top: 80px;
+    bottom: 0;
+    background-color: rgb(53, 50, 50);
+    left: 70px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.down {
+    height: 100px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+p {
+    color: rgb(228, 223, 223);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.plus {
+    color: aliceblue;
+}

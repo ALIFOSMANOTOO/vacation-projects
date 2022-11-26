@@ -1,0 +1,44 @@
+.curved {
+    width: 200px;
+    border-radius: 8px;
+    margin-right: 40px;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    margin-right: 40px;
+}
+
+.round {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+}
+
+.serachbox {
+    display: block;
+    margin-top: 30px;
+    padding-inline-start: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 5px;
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(185, 187, 189);
+}
+
+.googlesearch {
+    display: block;
+    margin-top: 30px;
+    padding-inline-start: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 18px;
+    border-width: 1px;
+    border-color: rgb(185, 187, 189);
+    width: 300px;
+    font-size: 10px;
+    font-weight: bold;
+    color: rgb(195, 195, 195);
+}

@@ -1,0 +1,21 @@
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+}
+
+.main {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: -1200px;
+    margin-bottom: 15px;
+}
+
+.assist {
+    font-size: 16px;
+    margin-left: 40px;
+}
+
+.inside {
+    text-decoration: underline;
+}
